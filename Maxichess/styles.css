@@ -1,0 +1,17 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(158, 15, 115);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container > p, h2 {
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: white;
+}
